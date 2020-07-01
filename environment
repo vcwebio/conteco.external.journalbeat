@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export CONTECO_LABEL="external.journalbeat - ContEco"
+export CONTECO_DESCRIPTION="ElasticSearch Journalbeat image with ContEco external prerequisites installed."
+
+export CONTECO_TYPE="external"
+export CONTECO_NAME="journalbeat"
+export CONTECO_TAG="7.8.0"
+
+export CONTECO_BASE="docker.elastic.co/beats/journalbeat:7.8.0"
+export CONTECO_BUILD="external-mapped"
